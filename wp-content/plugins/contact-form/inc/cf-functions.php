@@ -32,5 +32,5 @@ function mess_admin() {
 	</div><?php
 	$con = mysqli_connect('localhost','root', '', '1');
 	mysqli_set_charset($con,'utf8');
-	mysqli_query($con, "CREATE TABLE cf_table(id int, name varchar(50))");
+	mysqli_query($con, "CREATE TABLE cf_table(id int)");
 }
